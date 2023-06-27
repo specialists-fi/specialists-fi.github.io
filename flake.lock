@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "neoathame": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682001137,
+        "narHash": "sha256-u+8p4XXjEqrHuJorbLUOgaPVVpS+nQcmuG4g9kpcjM8=",
+        "owner": "infinitivewitch",
+        "repo": "neoathame",
+        "rev": "aace2fba95f1f0fe764f57caf0d1f3689b222592",
+        "type": "github"
+      },
+      "original": {
+        "owner": "infinitivewitch",
+        "repo": "neoathame",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1687793116,
+        "narHash": "sha256-6xRgZ2E9r/BNam87vMkHJ/0EPTTKzeNwhw3abKilEE4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9e4e0807d2142d17f463b26a8b796b3fe20a3011",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "neoathame": "neoathame",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
